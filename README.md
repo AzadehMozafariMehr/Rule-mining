@@ -1,1 +1,4 @@
-# Rule-mining
+# An Association Rule Mining-Based Framework for the Discovery of Anomalous Behavioral Patterns
+To help business and risk analysts to identify potential operational and data security risks, we developed an easy to apply automated framework which can discover anomalous behavioral patterns in business process executions.
+First, using a process mining technique, it obtains deviations in different aspects of a business process such as skipped tasks, spurious data accesses, and misusage of authorizations. Then, by applying a rule mining technique, it can extract anomalous behavioral patterns.
+Furthermore, in an automated procedure, our framework is able to automatically interpret anomalous patterns and categorize them into roles, users, and system deviating patterns. We conducted experiments on a real-life dataset from a financial organization. You can find the input data of these experiments in Inputs folder. A sample of discovered patterns can be find in the outputs folder.
